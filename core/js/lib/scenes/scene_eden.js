@@ -468,7 +468,7 @@ scene_eden.prototype.init = function(ctx)
 
 
     var kerrigan = new actor();
-    kerrigan.init(gl, "core/assets/characters/Kerrigan_infested/Kerrigan_infested.json", "Kerrigan", function()
+    kerrigan.init(gl, "core/assets/characters/kerrigan_infested/kerrigan_infested.json", "Kerrigan", function()
     {
     	console.log(kerrigan);
         var startB = vec3.create([-5, 0, 95]);
