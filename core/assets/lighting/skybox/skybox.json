@@ -1,0 +1,191 @@
+{
+   "mModels" : [
+      {
+         "mIndices" : [
+         	0,1,2,
+         	2,1,3
+         	],
+         "mNormals" : [
+         	0,0,1,
+         	0,0,1,
+         	0,0,1,
+         	0,0,1
+         	],
+         "mUV0" : [
+         	0, 1,
+         	1, 1,
+         	0, 0,
+         	1, 0
+         	],
+         "mUV1" : null,
+         "mUV2" : null,
+         "mUV3" : null,
+         "mUV4" : null,
+         "mUV5" : null,
+         "mUV6" : null,
+         "mUV7" : null,
+         "mVerticies" : [
+         	-1, 1, -1,
+         	 1, 1, -1,
+         	-1, -1, -1,
+         	 1, -1, -1
+         	],
+         "mTexture" : 
+         {
+         	"diffuse" : "clouds_1.jpg",
+         	"normal" : "robbie_N.jpg",
+         	"specular" : "robbie_S.jpg"
+         }
+      },
+      {
+         "mIndices" : [
+         	0,1,2,
+         	2,1,3
+         	],
+         "mNormals" : [
+         	0,0,-1,
+         	0,0,-1,
+         	0,0,-1,
+         	0,0,-1
+         	],
+         "mUV0" : [
+         	0, 1,
+         	1, 1,
+         	0, 0,
+         	1, 0
+         	],
+         "mUV1" : null,
+         "mUV2" : null,
+         "mUV3" : null,
+         "mUV4" : null,
+         "mUV5" : null,
+         "mUV6" : null,
+         "mUV7" : null,
+         "mVerticies" : [
+         	-1, 1, 1,
+         	 1, 1, 1,
+         	-1, -1, 1,
+         	 1, -1, 1
+         	],
+         "mTexture" : 
+         {
+         	"diffuse" : "clouds_1.jpg",
+         	"normal" : "robbie_N.jpg",
+         	"specular" : "robbie_S.jpg"
+         }
+      },
+      {
+         "mIndices" : [
+         	0,1,2,
+         	2,1,3
+         	],
+         "mNormals" : [
+         	1,0,0,
+         	1,0,0,
+         	1,0,0,
+         	1,0,0
+         	],
+         "mUV0" : [
+         	0, 1,
+         	1, 1,
+         	0, 0,
+         	1, 0
+         	],
+         "mUV1" : null,
+         "mUV2" : null,
+         "mUV3" : null,
+         "mUV4" : null,
+         "mUV5" : null,
+         "mUV6" : null,
+         "mUV7" : null,
+         "mVerticies" : [
+         	-1, 1, -1,
+         	-1, 1, 1,
+         	-1, -1, -1,
+         	 -1, -1, 1
+         	],
+         "mTexture" : 
+         {
+         	"diffuse" : "clouds_1.jpg",
+         	"normal" : "robbie_N.jpg",
+         	"specular" : "robbie_S.jpg"
+         }
+      },
+      {
+         "mIndices" : [
+         	0,1,2,
+         	2,1,3
+         	],
+         "mNormals" : [
+         	-1,0,0,
+         	-1,0,0,
+         	-1,0,0,
+         	-1,0,0
+         	],
+         "mUV0" : [
+         	0, 1,
+         	1, 1,
+         	0, 0,
+         	1, 0
+         	],
+         "mUV1" : null,
+         "mUV2" : null,
+         "mUV3" : null,
+         "mUV4" : null,
+         "mUV5" : null,
+         "mUV6" : null,
+         "mUV7" : null,
+         "mVerticies" : [
+         	1, 1, -1,
+         	1, 1, 1,
+         	1, -1, -1,
+         	 1, -1, 1
+         	],
+         "mTexture" : 
+         {
+         	"diffuse" : "clouds_1.jpg",
+         	"normal" : "robbie_N.jpg",
+         	"specular" : "robbie_S.jpg"
+         }
+      },
+      {
+         "mIndices" : [
+         	0,1,2,
+         	2,1,3
+         	],
+         "mNormals" : [
+         	0,0,1,
+         	0,0,1,
+         	0,0,1,
+         	0,0,1
+         	],
+         "mUV0" : [
+         	0, 1,
+         	1, 1,
+         	0, 0,
+         	1, 0
+         	],
+         "mUV1" : null,
+         "mUV2" : null,
+         "mUV3" : null,
+         "mUV4" : null,
+         "mUV5" : null,
+         "mUV6" : null,
+         "mUV7" : null,
+         "mVerticies" : [
+         	-1, 1, 1,
+         	 1, 1, 1,
+         	 -1, 1, -1,
+         	 1, 1, -1
+         	],
+         "mTexture" : 
+         {
+         	"diffuse" : "clouds_1.jpg",
+         	"normal" : "robbie_N.jpg",
+         	"specular" : "robbie_S.jpg"
+         }
+      }
+   ],
+   "mName" : "AssetMagic ModelJSON",
+   "mVersion" : 1.0
+}

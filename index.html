@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<!--Tower of Eden -->
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Tower Of Eden</title>
+
+    <!-- Styles -->
+    <link href="core/css/core.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" media="all" rel="stylesheet" type="text/css"/>
+    <!-- 3rd Party -->
+    <script type="text/javascript" src="core/js/lib/3rdParty/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript" src="core/js/lib/3rdParty/glMatrix.js"></script>
+
+    <!-- Socket.io Served automatically-->
+    <!--<script type="text/javascript" src="/socket.io/socket.io.js"></script>-->
+
+    <!-- JavaScript-->
+    <script type="text/javascript" src="core/js/lib/shader.js"></script>
+    <script type="text/javascript" src="core/js/lib/texture.js"></script>
+    <script type="text/javascript" src="core/js/lib/camera.js"></script>
+    <script type="text/javascript" src="core/js/lib/model.js"></script>
+    <script type="text/javascript" src="core/js/lib/actor.js"></script>
+    <script type="text/javascript" src="core/js/lib/scenes/scene_eden.js"></script>
+    <!-- Main -->
+    <script type="text/javascript" src="core/js/index.js"></script>
+
+</head>
+
+<!--
+    Body
+-->
+<body>
+<div class="devBar">
+    <b>Dev Bar:</b>
+    <div id="fps">FPS: !</div>
+    <div style="overflow-y: scroll; overflow-x: hidden;">
+        <i>Shader:</i><br><br>
+
+        Use Texture:<br>
+                    <span style="float: left; margin-left: 30px;">
+                        <input type="radio" name="useTexture" value="true" checked>Yes<br>
+                    </span>
+                    <span style="float: right; margin-right: 30px;">
+                        <input type="radio" name="useTexture" value="false">No<br>
+                    </span>
+
+        <br>
+        <br>
+
+        Use Light:<br>
+                    <span style="float: left; margin-left: 30px;">
+                        <input type="radio" name="useLight" value="true" checked>Yes<br>
+                    </span>
+                    <span style="float: right; margin-right: 30px;">
+                        <input type="radio" name="useLight" value="false">No<br>
+                    </span>
+
+        <br>
+        <br>
+
+        Use SSAO:<br>
+                    <span style="float: left; margin-left: 30px;">
+                        <input type="radio" name="useSSAO" value="true">Yes<br>
+                    </span>
+                    <span style="float: right; margin-right: 30px;">
+                        <input type="radio" name="useSSAO" value="false" checked>No<br>
+                    </span>
+        <br>
+        <br>
+
+        Light Pos:
+        <div style="width: 50%; margin-left: 25%;">
+            X:<div id="lightPosX"></div>
+            Y:<div id="lightPosY"></div>
+            Z:<div id="lightPosZ"></div>
+        </div>
+
+        <br>
+        <br>
+
+        Camera Settings:
+        <div style="width: 50%; margin-left: 25%;">
+            Focal Length:<div id="focalLength"></div>
+            Focal Distance:<div id="focalDistance"></div>
+            F-Stop:<div id="fStop"></div>
+        </div>
+
+        <br>
+        <br>
+
+        Display Settings:<br>
+                    <span style="float: left; margin-left: 30px;">
+                        <input type="radio" name="useGamma" value="true" checked>Yes<br>
+                    </span>
+                    <span style="float: right; margin-right: 30px;">
+                        <input type="radio" name="useGamma" value="false">No<br>
+                    </span>
+        <div style="width: 50%; margin-left: 25%;">
+            Brightness:<div id="brightness"></div>
+            Contrast:<div id="contrast"></div>
+            Screen Gamma:<div id="gammaScreen"></div>
+        </div>
+
+        <br>
+        <br>
+    </div>
+</div>
+<canvas width="1000" height="500" id="gameCanvas"></canvas>
+</body>
+</html>

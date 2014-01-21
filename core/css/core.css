@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    margin: 0px!important;
+}
+
+canvas {
+    background-color: palevioletred;
+}
+
+.devBar {
+    position: absolute;
+    background-color: gray;
+
+    text-align: center;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    z-index: 100;
+    opacity: 0.75;
+
+    width: 200px;
+    height: 400px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+    padding: 20px;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
